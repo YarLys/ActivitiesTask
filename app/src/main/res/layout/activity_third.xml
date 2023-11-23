@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thirdActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="ACTIVITY 3"
+        android:gravity="center"
+        android:textSize="50dp"></TextView>
+    <Button
+        android:id="@+id/GO1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="GO1"
+        android:textSize="50dp"></Button>
+    <Button
+        android:id="@+id/GO2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="GO2"
+        android:textSize="50dp"></Button>
+    <Button
+        android:id="@+id/BACK"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="BACK"
+        android:textSize="50dp"></Button>
+</LinearLayout>
